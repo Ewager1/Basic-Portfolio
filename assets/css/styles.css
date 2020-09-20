@@ -1,0 +1,65 @@
+body {
+  background-image: url(/assets/images/interlaced/interlaced.png);
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+header {
+  width: auto;
+  height: 75px;
+  background: #ffffff;
+  border-bottom: 2px solid #cccccc;
+  padding-left: 285px;
+  padding-right: 285px;
+}
+
+.left-header {
+  display: flex;
+  height: 75px;
+  width: 240px;
+  justify-content: flex-start;
+  align-items: center;
+  float: left;
+  background: #4aaaa5;
+  color: white;
+}
+
+.left-header h2 {
+  margin: auto;
+}
+
+.right-header-flex {
+  display: flex;
+  height: 75px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#flex-item-1,
+#flex-item-2,
+#flex-item-3 {
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+#flex-item-1,
+#flex-item-2 {
+  padding-right: 10px;
+  border-right: solid 1px;
+}
+
+main {
+  margin: auto;
+  width: 960px;
+  background: white;
+  text-align: center;
+}
