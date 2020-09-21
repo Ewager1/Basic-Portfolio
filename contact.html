@@ -8,24 +8,28 @@
   </head>
   <body>
     <header>
-      <section class="left-header">Ethan Wager</section>
+      <section class="left-header"><h2>Ethan Wager</h2></section>
       <section class="right-header-flex">
-        <div id="flex-item-1">About</div>
-        <div id="flex-item-2">Portfolio</div>
-        <div id="flex-item-3">Contact</div>
+        <a href="/index.html" id="flex-item-1">About</a>
+        <a href="/portfolio.html" id="flex-item-2">Portfolio</a>
+        <a href="/contact.html" id="flex-item-3">Contact</a>
       </section>
     </header>
-    <h2>Contact</h2>
-
+  
+    <main>
     <form>
-      Name <br />
-      <input type="text" placeholder="John Smith" /> <br />
+    <h2 class="main-header">Contact</h2>
+    <section id=input-wrapper>
+    Name <br />
+      <input type="text" placeholder="John Smith" id='contact-input-name'/> <br /><br>
       Email <br />
-      <input type="email" placeholder="example@example.com" /> <br />
+      <input type="email" placeholder="example@example.com" id='contact-input-email' /> <br /><br>
       Message<br />
-      <input type="text" placeholder="Message..." /> <br />
-      <input type="submit" />
+      <input type="text" id='contact-input-message' /> <br /><br> 
+      <input type="submit" id='submit' />
+    </section> 
     </form>
-    <footer>Copywrite</footer>
+
+    <footer></footer>
   </body>
 </html>

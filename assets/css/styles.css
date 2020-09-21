@@ -6,8 +6,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-h1,
-h2 {
+h2,
+h3 {
   font-family: Georgia, "Times New Roman", Times, serif !important;
 }
 
@@ -16,12 +16,12 @@ a {
   color: rgb(146, 144, 144);
 }
 
-/*fixed collapse issues from floats*/
+/*fix collapse issues from floats*/
 .clear {
   clear: both;
 }
 
-/* Heading Section*/
+/* Header Section all pages*/
 header {
   width: auto;
   height: 75px;
@@ -29,6 +29,7 @@ header {
   border-bottom: 2px solid #cccccc;
   padding-left: 480px;
   padding-right: 480px;
+  margin-bottom: 40px;
 }
 
 .left-header {
@@ -66,6 +67,16 @@ header {
   border-right: solid 1px;
 }
 
+/*main Header for all sections*/
+.main-header {
+  width: 93%;
+  margin: auto;
+  color: #4aaaa5;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom: solid 2px lightgray;
+}
+
 /*Index Main Section*/
 
 main {
@@ -75,7 +86,7 @@ main {
   text-align: left;
 }
 
-#main-heading {
+#index-main-header {
   width: 93%;
   margin: auto;
   color: #4aaaa5;
@@ -84,14 +95,54 @@ main {
   border-bottom: solid 2px lightgray;
 }
 
-#main-image {
-  padding: 25px;
+#index-main-image {
+  padding: 25px 25px 10px 35px;
   float: left;
 }
 
-#main-info {
-  padding: 25px;
+#index-main-info {
+  padding: 35px;
   line-height: 175%;
+}
+
+/*Contact Section*/
+form {
+  margin: auto;
+  width: 960px;
+  height: 625px;
+  background: white;
+  text-align: left;
+  color: gray;
+}
+
+#input-wrapper {
+  padding: 25px 35px;
+}
+
+#contact-input-name {
+  width: 99%;
+  border: solid #cccccc 1px;
+  padding-left: 10px;
+}
+
+#contact-input-email {
+  width: 99%;
+  border: solid #cccccc 1px;
+  padding-left: 10px;
+}
+#contact-input-message {
+  width: 99%;
+  height: 300px;
+  border: solid #cccccc 1px;
+  padding-left: 10px;
+}
+
+#submit {
+  background: #4aaaa5;
+  color: white;
+  border: none;
+  height: 30px;
+  width: 90px;
 }
 
 /*Footer Section*/
