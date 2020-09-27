@@ -38,7 +38,6 @@ header {
 }
 
 
-
 .right-header {
   height: 75px;
   text-align:end;
@@ -74,7 +73,7 @@ main {
   text-align: left;
 }
 
-#index-main-header {
+.index-main-header {
   width: 93%;
   margin: auto;
   color: #4aaaa5;
@@ -83,14 +82,24 @@ main {
   border-bottom: solid 2px lightgray;
 }
 
-#index-main-image {
+.index-main-image {
   padding: 25px 25px 10px 35px;
   float: left;
 }
 
-#index-main-info {
+.index-main-info {
   padding: 35px;
   line-height: 175%;
+}
+
+/*Portfolio*/ 
+
+.portfolio{
+  padding: 25px 25px 10px 35px;
+}
+
+.portfolio img{
+  padding-top:25px;
 }
 
 /*Contact Section*/
