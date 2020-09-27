@@ -70,8 +70,6 @@ header {
 /*Index Main Section*/
 
 main {
-  margin: auto;
-  width: 960px;
   background: white;
   text-align: left;
 }
@@ -97,9 +95,6 @@ main {
 
 /*Contact Section*/
 form {
-  margin: auto;
-  width: 960px;
-  height: 625px;
   background: white;
   text-align: left;
   color: gray;
