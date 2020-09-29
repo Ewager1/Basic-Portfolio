@@ -47,7 +47,7 @@ a {
 .main-header {
   color: #4aaaa5;
   padding-top: 25px;
-  padding-bottom: 25px;
+  padding-bottom: 2px;
   border-bottom: solid 2px lightgray;
 }
 
@@ -58,31 +58,29 @@ main {
   text-align: left;
 }
 
-.index-main-header {
-  color: #4aaaa5;
-  border-bottom: solid 2px lightgray;
-}
 
-.img-fluid {
+.about-selfie {
   margin: 25px 15px 10px 25px;
   float: left;
   width:20%;
   min-width: 150px;
 }
 
-.index-main-info {
+.about-main-info {
   padding: 20px;
   line-height: 175%;
 }
 
 /*Portfolio*/
 
-.portfolio {
+.portfolio-spacing {
   padding: 25px 25px 10px 35px;
 }
 
-.portfolio img {
+.portfolio-spacing img {
   padding-top: 25px;
+  width:80%;
+  min-width: 150px;
 }
 
 /*Contact Section*/
