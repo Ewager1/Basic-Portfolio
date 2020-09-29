@@ -3,6 +3,8 @@
 body {
   background-image: url(/assets/images/interlaced/interlaced.png);
   font-family: Arial, Helvetica, sans-serif;
+  
+
 }
 
 h2,
@@ -10,52 +12,13 @@ h3 {
   font-family: Georgia, "Times New Roman", Times, serif !important;
 }
 
-/*important overrides bootstrap default*/ 
+/*important overrides bootstrap default*/
 a {
   text-decoration: none !important;
   color: rgb(146, 144, 144) !important;
 }
 
-/*fix collapse issues from floats*/
-.clear {
-  clear: both;
-}
 
-
-/* Header Section all pages*/
-header {
-  height: 75px;
-  background: #ffffff;
-  border-bottom: 2px solid #cccccc;
-  margin-bottom: 40px;
-  text-align: center;
-}
-
-.left-header {
-  height: 75px;
-  background: #4aaaa5;
-  color: #ffffff ;
-
-}
-
-
-.right-header {
-  height: 75px;
-  text-align:end;
-}
-
-#item-1,
-#item-2,
-#item-3 {
-  margin-right: 10px;
-  font-size: 16px;
-}
-
-#item-1,
-#item-2 {
-  padding-right: 10px;
-  border-right: solid 1px;
-}
 
 /*main Header for all sections*/
 .main-header {
@@ -73,32 +36,28 @@ main {
 }
 
 .index-main-header {
-  width: 93%;
-  margin: auto;
   color: #4aaaa5;
-  padding-top: 25px;
-  padding-bottom: 25px;
   border-bottom: solid 2px lightgray;
 }
 
 .index-main-image {
-  padding: 25px 25px 10px 35px;
+  margin: 25px 15px 10px 25px;
   float: left;
 }
 
 .index-main-info {
-  padding: 35px;
+  padding: 20px;
   line-height: 175%;
 }
 
-/*Portfolio*/ 
+/*Portfolio*/
 
-.portfolio{
+.portfolio {
   padding: 25px 25px 10px 35px;
 }
 
-.portfolio img{
-  padding-top:25px;
+.portfolio img {
+  padding-top: 25px;
 }
 
 /*Contact Section*/
@@ -146,5 +105,6 @@ footer {
   bottom: 0;
   width: 100%;
   background-color: #4aaaa5;
-  height: 50px;
+  height: 5%;
 }
+
