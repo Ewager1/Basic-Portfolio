@@ -1,12 +1,12 @@
 /*All pages*/
 
 body {
-  background-image: url(/assets/images/interlaced/interlaced.png);
+  background-image: url(./assets/images/interlaced/interlaced.png);
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.nav-item{
-  background:white;
+.nav-item {
+  background: white;
 }
 
 h2,
@@ -22,25 +22,24 @@ a {
 
 /*Navbar*/
 
-.navbar{
-  background:white;
+.navbar {
+  background: white;
   border-bottom: solid 1px darkgray;
-  padding:0px !important;
-  height:4rem;
+  padding: 0px !important;
+  height: 4rem;
 }
-.navbar-brand{
+.navbar-brand {
   background-color: #4aaaa5;
   padding: 2em;
 }
 
-.navbar-brand h2{
-  color:whitesmoke;
+.navbar-brand h2 {
+  color: whitesmoke;
 }
 
-/*Highlights current page link*/ 
-.active-nav-link a{
+/*Highlights current page link*/
+.active-nav-link a {
   border-bottom: solid 2px;
-
 }
 
 /*main Header for all sections*/
@@ -58,11 +57,10 @@ main {
   text-align: left;
 }
 
-
 .about-selfie {
   margin: 25px 15px 10px 25px;
   float: left;
-  width:20%;
+  width: 20%;
   min-width: 150px;
 }
 
@@ -79,7 +77,7 @@ main {
 
 .portfolio-spacing img {
   padding-top: 25px;
-  width:80%;
+  width: 80%;
   min-width: 150px;
 }
 
@@ -130,4 +128,3 @@ form {
   background-color: #4aaaa5;
   height: 5%;
 }
-
