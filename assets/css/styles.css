@@ -63,9 +63,11 @@ main {
   border-bottom: solid 2px lightgray;
 }
 
-.index-main-image {
+.img-fluid {
   margin: 25px 15px 10px 25px;
   float: left;
+  width:20%;
+  min-width: 150px;
 }
 
 .index-main-info {
