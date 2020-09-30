@@ -1,11 +1,9 @@
 /*All pages*/
 
 body {
- 
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url(/assets/images/interlaced.png);
+  background-image: url(https://image.freepik.com/free-photo/white-art-paper-background_35956-2378.jpg) !important;
 }
-
 
 .nav-item {
   background: white;
