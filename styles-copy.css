@@ -1,3 +1,5 @@
+/*All pages*/
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-image: url(https://image.freepik.com/free-photo/white-art-paper-background_35956-2378.jpg);
@@ -62,55 +64,6 @@ a {
 
 .about-main-info {
   line-height: 175%;
-}
-
-/*Portfolio*/
-
-.portfolio-spacing {
-  padding: 25px 25px 10px 35px;
-}
-
-.portfolio-spacing img {
-  padding-top: 25px;
-  width: 80%;
-  min-width: 150px;
-}
-
-/*Contact Section*/
-form {
-  background: white;
-  text-align: left;
-  color: gray;
-}
-
-#input-wrapper {
-  padding: 25px 35px;
-}
-
-#contact-input-name {
-  width: 99%;
-  border: solid #cccccc 1px;
-  padding-left: 10px;
-}
-
-#contact-input-email {
-  width: 99%;
-  border: solid #cccccc 1px;
-  padding-left: 10px;
-}
-#contact-input-message {
-  width: 99%;
-  height: 300px;
-  border: solid #cccccc 1px;
-  padding-left: 10px;
-}
-
-#submit {
-  background: #4aaaa5;
-  color: white;
-  border: none;
-  height: 30px;
-  width: 90px;
 }
 
 /*Footer Section*/
