@@ -14,8 +14,7 @@
     <title>E. Wager Portfolio</title>
   </head>
   <body>
-     <!--nav edited from getbootstrap.com-->
-     <nav class="navbar navbar-expand-sm navbar-light p-1">
+    <nav class="navbar navbar-expand-sm navbar-light p-1">
       <div class="container p-0"> <!--Used to line nav contents up with main-->
       <a class="navbar-brand rounded "><h2>Ethan Wager</h2></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,29 +36,29 @@
     </div>
     </nav>
 
-        <main class='container'>
-            <h2 class='main-header m-4'>Portfolio</h2>
-            <div class="row portfolio-spacing">
-         <div class="col-12 col-sm-6 col-md-3">
-          <img src=" https://via.placeholder.com/300" alt="project-1" />
-        </div>
-        <div class="col-12 col-sm-6 col-md-3">
-          <img src=" https://via.placeholder.com/300" alt="project-2" />
-        </div>
-        <div class="col-12 col-sm-6 col-md-3">
-          <img src=" https://via.placeholder.com/300" alt="project-3" />
-        </div>
-        <div class="col-12 col-sm-6 col-md-3">
-          <img src=" https://via.placeholder.com/300" alt="project-4" />
-        </div>
-          <div class="col-12 col-sm-6 col-md-3">
-        <img src=" https://via.placeholder.com/300" alt="project-5" />
-        </div>
-           </div>
-        </main>
-        
-    </header>
-    <footer class='footer'></footer>
+    <main class="container">
+      <div class="col-12 mt-5"></div>
+    <div class="row">
+      <div class="col main-background">
+       <h2 class="main-header ml-5 mr-5 mb-5 mt-5">Contact</h2>
+      <section class=" ml-5 mr-5 mb-5 mt-5" >
+        Name <br />
+        <input type="text" placeholder="John Smith" id="contact-input-name" />
+        <br /><br />
+        Email <br />
+        <input
+          type="email"
+          placeholder="example@example.com"
+          id="contact-input-email"
+        />
+        <br /><br />
+        Message<br />
+        <input type="text" id="contact-input-message" /> <br /><br />
+        <input type="submit" id="submit" />
+      </section>
+      </div> <!--column-->
+    </div> <!--row-->
+  </main> 
   </body>
   <script
   src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
