@@ -31,43 +31,82 @@
     </div>
     </nav>
 
-    <main class="container">
-      <div class="col-12 mt-5"></div>
-    <div class="row">
-      <div class="col main-background">
-       <h2 class="main-header ml-5 mr-5 mb-5 mt-5">Contact</h2>
-      <section class=" ml-5 mr-5 mb-5 mt-5" >
-        Name <br />
-        <input type="text" placeholder="John Smith" id="contact-input-name" />
-        <br /><br />
-        Email <br />
-        <input
-          type="email"
-          placeholder="example@example.com"
-          id="contact-input-email"
-        />
-        <br /><br />
-        Message<br />
-        <input type="text" id="contact-input-message" /> <br /><br />
-        <input type="submit" id="submit" />
-      </section>
-      </div> <!--column-->
-    </div> <!--row-->
-  </main> 
+    <!--Altered from https://bootsnipp.com/snippets/95Oj-->
+
+<div class="container main-background pb-4">
+  <div class="col-12 mt-5"></div>
+  <div class="row">
+    <div class="col-12"><h2 class="main-header ml-5 mr-5 mb-5 mt-5">Get in touch anytime</h2></div> 
+      <div class="col-md-8">
+          <div class="well well-sm">
+              <form>
+              <div class="row">
+                  <div class="col-md-6">
+                      <div class="form-group ml-5">
+                          <label for="name">
+                              Name</label>
+                          <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+                      </div>
+                      <div class="form-group ml-5">
+                          <label for="email">
+                              Email Address</label>
+                          <div class="input-group">
+                              <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                              </span>
+                              <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
+                      </div>
+                      <div class="form-group ml-5">
+                        <label for="email">
+                            Phone Number</label>
+                        <div class="input-group">
+                            <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                            </span>
+                            <input type="tel" class="form-control" id="phone" placeholder="Enter phone number" /></div>
+                    </div>
+                     
+                  </div>
+                  <div class="col-md-6">
+                      <div class="form-group ml-2">
+                          <label for="name">
+                              Message</label>
+                          <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                              placeholder="Message"></textarea>
+                      </div>
+                  </div>
+                  <div class="col-md-12 ml-5">
+                      <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
+                          Send Message</button>
+                  </div>
+              </div>
+              </form>
+          </div>
+      </div>
+      <div class="col-md-4">
+          <form>
+          <legend class='mb-4 underline'>My info</legend>
+              <a href=""><strong>Github</strong></a><br><br>
+              <a href=""><strong>Facebook</strong></a><br><br>
+              <a href="mailto:ethanbwager@gmail.com"><strong>Email</strong><br><br></link></a>
+      
+              
+          </form>
+      </div>
+</body>
+  <footer class='footer'></footer>
+  <script
+  src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+  integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+  integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+  crossorigin="anonymous"
+></script>
   </body>
-  <script
-    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-    crossorigin="anonymous"
-  ></script>
 </html>
