@@ -56,7 +56,7 @@ a {
 }
 
 .about-selfie {
-  width: 20%; 
+  width: 20% ; 
   min-width: 150px;
 }
 
@@ -64,17 +64,6 @@ a {
   line-height: 175%;
 }
 
-/*Portfolio*/
-
-.portfolio-spacing {
-  padding: 25px 25px 10px 35px;
-}
-
-.portfolio-spacing img {
-  padding-top: 25px;
-  width: 80%;
-  min-width: 150px;
-}
 
 /*Contact Section*/
 form {
