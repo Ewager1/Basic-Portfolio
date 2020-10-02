@@ -41,12 +41,15 @@ It must contain:
 I added a few small improvements of my own
 
 - nav anchors are underlined showing what page the user is on
-  ![Icon Demo](./assets/images/nav-demo.png)
+
+![Icon Demo](./assets/images/nav-demo.png)
 
 - nav anchors have a .hover bold
 - Created Contact image links to look more professional
 - Contact image links have a .hover event that reduce opacity to 0.7 to look cooler
-  ![Icon Demo](./assets/images/icon-demo.png)
+
+![Icon Demo](./assets/images/icon-demo.png)
+
 
 - Added a fancy top-hat Favicon
 
