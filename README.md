@@ -6,34 +6,48 @@
 
 ## Goals
 
-To use Bootstrap CSS Framework to build a basic but professional portfolio that can display future projects. 
+To use Bootstrap CSS Framework to build a basic but professional portfolio that can display future projects
 
-It must contain: 
+It must contain:
 
-  - A navbar
+- A navbar
 
-  - A responsive layout
+- A responsive layout
 
-  - Responsive images
-  
-  - HTML validated 
+- Responsive images
+
+- HTML validated
+
+- Sticky footer
+
 ---
 
-## What I learned in this project
+## Results
 
-- How to add Boot Strap elements to my work 
-- How to space elements with bootstrap spacing like ml-3 
+- I created a responsive website from scratch. Below are exampes of each screen size.
+
+- Mobile
+  ![Icon Demo](/assets/images/xm-screen-demo.png)
+
+- Small
+  ![Icon Demo](./assets/images/sm-screen-demo.png)
+
+- Medium
+  ![Icon Demo](./assets/images/med-screen-demo.png)
+
+- Large
+  ![Icon Demo](./assets/images/large-screen-demo.png)
+
+I added a few small improvements of my own. - nav anchors are underlined showing what page the user is on - nav anchors have a .hover bold
+![Icon Demo](./assets/images/nav-demo.png) - contact section includes image links to facebook, linkedIn, and Github
+![Icon Demo](./assets/images/icon-demo.png) - Contact image links have a .hover event that reduce opacity to 0.7 to look cooler - Added a fancy top-hat Favicon
+
+## What I learned:
+
+- How to add Boot Strap elements to my work
+- How to space elements with bootstrap spacing like ml-3
 - How to create responsive layouts from mobile to desktop size using things like ml-sm-3 and col-md-4
+- How to create a sticky footer
+- How to link icon images (Contact Section)
 
 ---
-
-## Challenges I had in this project
-
-- I created this homework early by accident without knowing bootstrap, then went back and tried to erase css margins and padding and    
-  replace with bootstrap spacing instead. It ended up being very challenging, but I was finally able to overcome it by creating a seperate test page and doing it piece
-  by piece. 
-
-- I had trouble creating a fluid image with my profile picture. Normally, I would put the image in its own column, and text in a seperate column. However, 
-  I was asked to let the text wrap around the image, so I used float-left instead. However, this seemed to clash with the image fluid element. I looked up img-fluid, and learned that it sets width %100 and height auto. So my workaround was to make width %20 which 
-  still made the image change size as I changed the screen width. In the future, I will play more with other solutions such as text-wrap 
-  and justify-content. 
