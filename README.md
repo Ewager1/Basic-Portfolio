@@ -24,7 +24,7 @@ It must contain:
 
 ## Results
 
-- I created a responsive website from scratch. Below are exampes of each screen size.
+- Created a responsive website from scratch. Below are exampes of each screen size
 
 - Mobile
   ![Icon Demo](/assets/images/xm-screen-demo.png)
@@ -38,11 +38,19 @@ It must contain:
 - Large
   ![Icon Demo](./assets/images/large-screen-demo.png)
 
-I added a few small improvements of my own. - nav anchors are underlined showing what page the user is on - nav anchors have a .hover bold
-![Icon Demo](./assets/images/nav-demo.png) - contact section includes image links to facebook, linkedIn, and Github
-![Icon Demo](./assets/images/icon-demo.png) - Contact image links have a .hover event that reduce opacity to 0.7 to look cooler - Added a fancy top-hat Favicon
+I added a few small improvements of my own
 
-## What I learned:
+- nav anchors are underlined showing what page the user is on
+  ![Icon Demo](./assets/images/nav-demo.png)
+
+- nav anchors have a .hover bold
+- Created Contact image links to look more professional
+- Contact image links have a .hover event that reduce opacity to 0.7 to look cooler
+  ![Icon Demo](./assets/images/icon-demo.png)
+
+- Added a fancy top-hat Favicon
+
+## New things I learned:
 
 - How to add Boot Strap elements to my work
 - How to space elements with bootstrap spacing like ml-3
