@@ -50,7 +50,6 @@ I added a few small improvements of my own
 
 ![Icon Demo](./assets/images/icon-demo.png)
 
-
 - Added a fancy top-hat Favicon
 
 ## New things I learned:
@@ -62,3 +61,16 @@ I added a few small improvements of my own
 - How to link icon images (Contact Section)
 
 ---
+
+## Challenges I faced:
+
+- One of the challenges I faced was getting img-fluid to work. Whenever I used the img-fluid class, my image would blow up
+  to the entire page instead of taking up it's parent div. I spent a lot of time on this, and it seems that using the float-left
+  property doesn't play well with img-fluid. I found a workaround by looking up how img-fluid sets width-100% and height-auto, so
+  I used basic css to create width-17% and height-auto. This created a close effect of changing the img size to always be relative to
+  the page. I also had to add a min-width so it didn't shrink too small.
+
+- Another thing I found challenging in this project was going from the CSS version I built the first week, which had no bootstrap,
+  to a boot-strap refactor. replacing margins step by step with bootstrap m- and p- was hard to keep straight. However, I found my
+  groove when i created a new "test" page and went section by section. The good news is i learned a lot more about the relationship
+  between bootstrap shortcuts and the css they implement.
